@@ -1,0 +1,332 @@
+html {
+    
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #eff1f4;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .red-text {
+    color: #ff6e32;
+    box-sizing: border-box;
+    margin: 0rem 1rem 0rem 3rem;
+    position:absolute;
+    padding: 8px 15px;  
+    text-decoration: none;  
+    top: 1rem;
+  }
+
+ 
+
+  .min {
+    color: #fff;
+    margin: -1.5rem 0rem 0rem 0.5rem;
+    background-color: #35c772;
+    position: absolute;
+    padding: 1px 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+     
+  #logo {
+    left: 40rem;
+    position: absolute;
+    width: 49rem;
+    height: 20rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+
+  h2 {
+    color: black;
+  
+    margin: 0rem 1rem 0rem 3rem;
+    position:absolute;
+    padding: 8px 15px;
+  
+    text-decoration: none;
+   
+    top: 1rem;
+  }
+  .max {
+    color: #fff;
+    margin: 1rem 1rem 1rem 1rem;
+    top: 3rem;
+    background-color: #ff6e32;
+    position: absolute;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.BEL {
+  background-image:url(BEL.jpg) ;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 42px;
+    width: 42px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+}
+
+.Serp {
+    background-image:url(Serp.jpg) ;
+    position: absolute;
+    top: 0;
+    left: 3.5rem;
+    height: 42px;
+    width: 42px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+}
+
+.Time {
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    margin: 4.5rem 0rem 0rem 14rem;
+}
+
+.Time-3 {
+  color: black;
+  font-size: 25px;
+  margin: -11.5rem 0rem 1rem 41rem;
+}
+
+
+.Time-2 {
+  color: black;
+  font-size: 25px;
+  top: 10px;
+  margin: 1.5rem 0rem 0rem 14rem;
+}
+
+.Town {
+  color: #9ea9b7;
+  font-size: 15px;
+  top: 1rem;
+  margin: 0.5rem 0rem 0rem 14rem;
+}
+
+p {
+  color: #9ea9b7;
+  font-size: 15px;
+  top: 1rem;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.Date {
+  color: #9ea9b7;
+  font-size: 15px;
+  top: 1rem;
+  margin: 0.5rem 0rem 0rem 14rem;
+}
+
+.Moon {
+  background-image: url(moon.svg);
+  position: absolute;
+  top: 1.5rem;
+  left: 37.5rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Clock {
+  background-image: url(time.svg);
+  position: absolute;
+  top: 1.5rem;
+  left: 39rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Bell {
+  background-image: url(bell.svg);
+  position: absolute;
+  top: 1rem;
+  left: 41rem;
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Link {
+  background-image: url(link.svg);
+  position: absolute;
+  top: 1rem;
+  left: 43rem;
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+    
+    
+.min-2 {
+  color: #fff;
+  margin: -1.5rem 0rem 0rem 0.5rem;
+  background-color: #b983f1;
+  position: absolute;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2rem;
+}
+
+   
+#logo-2 {
+  left: 40rem;
+  position: absolute;
+  width: 49rem;
+  height: 20rem;
+  margin: 22rem 0;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+h2 {
+  color: black;
+
+  margin: 0rem 1rem 0rem 3rem;
+  position:absolute;
+  padding: 8px 15px;
+
+  text-decoration: none;
+ 
+  top: 1rem;
+}
+.max-2 {
+  color: #fff;
+  margin: 1rem 1rem 1rem 1rem;
+  top: 3rem;
+  background-color: #ff6e32;
+  position: absolute;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+
+
+.picture {
+  position:fixed;
+  display: flex;
+  width: 31rem;
+  height: 3rem;
+  margin: 0rem 14rem;
+  cursor: pointer;
+  background-color: #ffffff;
+
+}
+
+.Plane-2 {
+  background-image: url(plane-land.svg);
+  position: absolute;
+  top: 5.5rem;
+  left: 38rem;
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Plane {
+  background-image: url(plane-take-off.svg);
+  position: absolute;
+  top: 5.5rem;
+  left: 22rem;  
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Line {
+  background-image: url(Line.svg);
+  position: absolute;
+  top: 8rem;
+  left: 22rem;
+  height: 0.3rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+}
+
+.Line-2 {
+  background-image: url(Line.svg);
+    position: absolute;
+    top: 0rem;
+    left: 15rem;
+    height: 0.3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+}
+
+.Time-work {
+  color: #9faab8;
+  position: absolute;
+  top: 6rem;
+  left: 22rem;
+  height: 0rem;
+  width: 10rem;
+  left: 27rem;
+
+ 
+}
+
+.Name {
+  color: #579dfe;
+  position: absolute;
+  top: 9.5rem;
+  left: 22rem;
+
+}
+
+.Name-2 {
+  color: #579dfe;
+  position: absolute;
+  top: 3.5rem;
+  left: 3rem;
+}
+
+.Name-3 {
+  color: #579dfe;
+  position: absolute;
+  top: 3.5rem;
+  left: 11rem;
+}
+
+.a23-a {
+ top: 30rem;
+ left: 30rem;
+}

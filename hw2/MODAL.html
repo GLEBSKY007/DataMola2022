@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style12.css" type="text/css" media="all" />
+ 
+  <title>Модальное окно</title>
+</head>
+
+<body>
+  <a href="#openModal">Открыть модальное окно</a>
+
+  <div id="openModal" class="modalDialog">
+    <div>
+      <a href="#close" title="Закрыть" class="close">X</a>
+      <h2>Modal title</h2>
+      <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+   
+      <a href="#"><button   id="closeModal" class="button-close" >Close</button></a>
+      <button class="save">Save changes</button>
+    </div>
+  </div>
+  <script>
+    window.onload = function(){
+          document.querySelector('a[href="#openModal"]').click();
+       }
+  </script>
+</body>
+
+</html>
+
+						

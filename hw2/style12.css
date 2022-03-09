@@ -1,0 +1,100 @@
+html {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #7c7c7d;
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+	color: black;
+}
+
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 480px;
+	top: 10rem;
+	left: 40rem;
+	position: relative;
+	padding: 5px 30px 5rem 20px;
+	border-radius: 0.25rem;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, rgb(255, 255, 255));
+	background: -webkit-linear-gradient(#fff, rgb(255, 255, 255));
+	background: -o-linear-gradient(#fff, rgb(255, 255, 255));
+}
+
+
+
+
+.save {
+		position:absolute;
+		left: 70%;
+		top: 77%;
+		background: #1c7bff;
+		color: #FFFFFF;
+		border: none;
+		padding: 11px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		border-radius: 0.25rem;
+		cursor: pointer;
+		
+}
+
+.button-close {
+		position:absolute;
+		left: 52%;
+		top: 77%;
+		background:#6c757d;
+		color: #FFFFFF;
+		border: none;
+		padding: 10px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 0.25rem;
+		cursor: pointer;
+}
+
+.close {
+	
+	color: #808080;
+	line-height: 25px;
+	position: absolute;
+	right: 12px;
+	text-align: center;
+	top: 28px;
+	width: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
